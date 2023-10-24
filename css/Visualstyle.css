@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+margin:0;
+padding:0;
+font-family: ;
+
+}
+ul#menu{background-color: rgba(0, 255, 255, 0.9);
+position:fixed ;
+width:100%;
+line-height: 40px;
+
+}
+ul#menu li{display:inline;}
+nav a:link, a:visited{
+    font-size: 20px;
+ text-transform: uppercase;
+ text-decoration: none;
+	color: #fff;
+	padding: 16px;
+	text-shadow: 1px 1px 20px #000;
+}
+nav a:hover, a:active{
+	background-color: #247ba0, 0.7;
+	color: #fff;
+	text-shadow: 1px 1px 20px goldenrod;
+}
+#banner{
+	background-image: url("../images/brasili.jpg");
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    
+}
+#summary{
+    background-color: rgba(0,255,255,0.4);
+    font-size: 2.0em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#citypark{
+    background-color: rgba(0, 201, 201, 0.4);
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#paranoalake{
+    background-color: rgba(0, 164, 164, 0.5);
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#temple{background-color: rgba(0, 127, 127, 0.6);
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;}
+    #brasiliamuseum{background-color: rgba(0, 107, 107, 0.7);
+        font-size: 1.6em;
+        font-family: Arial, Helvetica, sans-serif;}}
+
+.images{width: 600px;
+	height: 300px;
+	margin: 20px;
+	border-radius: 10px;
+	border: 1px solid #FFF;
+	box-shadow: 5px 5px 25px #000;}
+#suggestions{
+	background-color: rgba(0, 103, 103, 0.9);
+	width: 100%;
+	height: 100vh;
+	font-size: 2.0em;
+	text-align: center;
+}
+
+#suggestions label{
+	display: block;
+	margin-top: 10px;
+}
+
+#suggestions input, textarea{
+	width: 400px;
+	font-size: 0.8em;
+	padding: 8px;
+	border: 0;
+	border-radius: 10px;
+}
+
+#suggestion button{
+	border: 0;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #1b98e0;
+	color: #FFF;
+}
+
+#suggestions button:hover{
+	color: #592715;
+	border: 1px solid #592715;
+	background-color: #D9C852;
+}
